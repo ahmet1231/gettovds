@@ -2,7 +2,7 @@
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > out.txt 2>&1
 net config server /srvcomment:"Windows Azure VM" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
-net user administrator Gettovds12 /add >nul
+net user administrator GettoVds123 /add >nul
 net localgroup administrators administrator /add >nul
 echo Hepsi tamam! VDS'nizi Uzak Masaüstü Bağlantısı kullanarak bağlayın
 echo IP: Yok
